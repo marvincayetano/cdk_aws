@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdk = require("aws-cdk-lib");
+const pipeline_stack_1 = require("../lib/pipeline-stack");
+const app = new cdk.App();
+new pipeline_stack_1.WorkshopPipelineStack(app, "CdkWorkshopPipelineStack");
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2RrLXdvcmtzaG9wLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY2RrLXdvcmtzaG9wLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUNBLG1DQUFtQztBQUNuQywwREFBOEQ7QUFFOUQsTUFBTSxHQUFHLEdBQUcsSUFBSSxHQUFHLENBQUMsR0FBRyxFQUFFLENBQUM7QUFDMUIsSUFBSSxzQ0FBcUIsQ0FBQyxHQUFHLEVBQUUsMEJBQTBCLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIiMhL3Vzci9iaW4vZW52IG5vZGVcbmltcG9ydCAqIGFzIGNkayBmcm9tIFwiYXdzLWNkay1saWJcIjtcbmltcG9ydCB7IFdvcmtzaG9wUGlwZWxpbmVTdGFjayB9IGZyb20gXCIuLi9saWIvcGlwZWxpbmUtc3RhY2tcIjtcblxuY29uc3QgYXBwID0gbmV3IGNkay5BcHAoKTtcbm5ldyBXb3Jrc2hvcFBpcGVsaW5lU3RhY2soYXBwLCBcIkNka1dvcmtzaG9wUGlwZWxpbmVTdGFja1wiKTtcbiJdfQ==
